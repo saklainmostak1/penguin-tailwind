@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <script src="https://kit.fontawesome.com/c185d7ed65.js" crossorigin="anonymous"></script>
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -13,6 +14,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                penguin: '#FFFBF0',
               }
             }
           }
@@ -20,14 +22,24 @@
       </script>
 </head>
 <body>
-    <header>
-        <h1 class="text-6xl uppercase font-bold">
+    <header class="bg-penguin pb-32 pt-12">
+        
+        <section class="container mx-auto sm:flex items-center justify-around">
+            <div class="space-y-4">
+        <h1 class=" text-2xl sm:text-6xl uppercase font-bold">
             <span class="text-yellow-400">Be the Penguin</span><br>
             <span>Of winter</span>
         </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolores.</p>
+        <button class="uppercase bg-[#A4BC46] py-4 px-7 text-white font-semibold rounded-xl"> <i class="fa-solid fa-cart-shopping mr-2"> </i>Buy Now</button>
+    </div>
+    <div class="pt-8 sm:pt-0">
+        <img class="w-1/2 sm:w-full" src="images/model.png" alt="">
+    </div>
+    </section>
     </header>
     <main>
-        
+
     </main>
 </body>
 </html>
